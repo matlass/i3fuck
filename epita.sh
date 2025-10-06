@@ -16,12 +16,12 @@ name=$(whoami)
   echo
   echo
 
-} >>i3.txt
+} >>~/.config/i3/config
 {
   echo "nix profile install nixpkgs#oneko"
   echo "nix profile install nixpkgs#sl"
   echo "nix profile install nixpkgs#cowsay"
-} >>install.txt
+} >>~/afs/.conf/install.sh
 
 {
   echo "neko -tora -speed 16 >/dev/null 2>&1 & disown"
@@ -29,4 +29,4 @@ name=$(whoami)
   echo 'alias ls="sl -5"'
   echo 'alias sl="ls"'
   echo "cowsay -f beavis.zen hello $name"
-} >>bashrs.txt
+} >>~/.bashrs
