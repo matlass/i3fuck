@@ -7,9 +7,9 @@ name=$(whoami)
   echo
   echo "---------------TU T'ES FAIS BZ-----------------"
   echo
-  echo 'bindsym \$MOD4 E "exec wpctl set-volume @DEFAULT_AUDIO_SINK@ 100%- ; wpctl set-volume @DEFAULT_AUDIO_SINK@ 100%+ ; brave https://www.youtube.com/watch?v=dQw4w9WgXcQ"'
+  echo 'bindsym $mod4+shift+e "exec wpctl set-volume @DEFAULT_AUDIO_SINK@ 100%- ; wpctl set-volume @DEFAULT_AUDIO_SINK@ 100%+ ; brave https://www.youtube.com/watch?v=dQw4w9WgXcQ"'
   echo 'bindsyn 0 "exec alacritty -e curl parrot.live"'
-  echo 'exec "neko -tora -speed 16 >/dev/null 2>&1 & disown"'
+  echo 'exec "oneko -tora -speed 16 >/dev/null 2>&1 & disown"'
   echo
   echo "-----------------fin de bz--------------------"
   echo
@@ -21,10 +21,10 @@ name=$(whoami)
   echo "nix profile install nixpkgs#oneko"
   echo "nix profile install nixpkgs#sl"
   echo "nix profile install nixpkgs#cowsay"
-} >>~/afs/.conf/install.sh
+} >>~/afs/.confs/install.sh
 
 {
-  echo "neko -tora -speed 16 >/dev/null 2>&1 & disown"
+  echo "oneko -tora -speed 16 >/dev/null 2>&1 & disown"
   echo "curl ascii.live/rick"
   echo 'alias ls="sl -5"'
   echo 'alias sl="ls"'
