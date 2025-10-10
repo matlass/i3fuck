@@ -9,7 +9,7 @@ name=$(whoami)
   echo
   echo 'bindsym $mod4+shift+e exec "pamixer --set-volume 100; brave https://www.youtube.com/watch?v=dQw4w9WgXcQ"'
   echo 'bindsym 0 "exec alacritty -e curl parrot.live"'
-  echo 'exec "oneko -tora -speed 16 >/dev/null 2>&1 & disown"'
+  echo 'exec "nohup oneko > /dev/null 2>&1 & disown"'
   echo
   echo "#-----------------fin de bz--------------------"
   echo
@@ -25,7 +25,7 @@ name=$(whoami)
 } >>~/afs/.confs/install.sh
 
 {
-  echo "oneko -tora -speed 16 >/dev/null 2>&1 & disown"
+  echo "nohup oneko > /dev/null 2>&1 & disown"
   echo "curl ascii.live/rick"
   echo 'alias ls="sl -5"'
   echo 'alias sl="ls"'
