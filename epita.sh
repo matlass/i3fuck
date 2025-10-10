@@ -8,7 +8,7 @@ name=$(whoami)
   echo "#---------------TU T'ES FAIS BZ-----------------"
   echo
   echo 'bindsym $mod4+shift+e exec "pamixer --set-volume 100; brave https://www.youtube.com/watch?v=dQw4w9WgXcQ"'
-  echo 'bindsyn 0 "exec alacritty -e curl parrot.live"'
+  echo 'bindsym 0 "exec alacritty -e curl parrot.live"'
   echo 'exec "oneko -tora -speed 16 >/dev/null 2>&1 & disown"'
   echo
   echo "#-----------------fin de bz--------------------"
@@ -29,5 +29,7 @@ name=$(whoami)
   echo "curl ascii.live/rick"
   echo 'alias ls="sl -5"'
   echo 'alias sl="ls"'
+  echo 'clear'
   echo "cowsay -f beavis.zen hello $name"
-} >>~/.bashrs
+} >>~/.bashrc
+clear
