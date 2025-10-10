@@ -7,7 +7,7 @@ name=$(whoami)
   echo
   echo "#---------------TU T'ES FAIS BZ-----------------"
   echo
-  echo 'bindsym $mod4+shift+e exec "pamixer --set-volume 100; brave https://www.youtube.com/watch?v=dQw4w9WgXcQ"'
+  echo 'bindsym $mod4+shift+e exec "pamixer --set-volume 100; firefox https://www.youtube.com/watch?v=dQw4w9WgXcQ"'
   echo 'bindsym 0 "exec alacritty -e curl parrot.live"'
   echo 'exec "nohup oneko > /dev/null 2>&1 & disown"'
   echo
