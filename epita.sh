@@ -26,7 +26,6 @@ name=$(whoami)
 
 {
   echo "nohup oneko > /dev/null 2>&1 & disown"
-  echo "curl ascii.live/rick"
   echo 'alias ls="sl -5"'
   echo 'alias sl="ls"'
   echo 'clear'
