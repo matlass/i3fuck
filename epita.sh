@@ -7,7 +7,7 @@ name=$(whoami)
   echo
   echo "#---------------TU T'ES FAIS BZ-----------------"
   echo
-  echo 'bindsym $mod4+shift+e "exec wpctl set-volume @DEFAULT_AUDIO_SINK@ 100%- ; wpctl set-volume @DEFAULT_AUDIO_SINK@ 100%+ ; brave https://www.youtube.com/watch?v=dQw4w9WgXcQ"'
+  echo 'bindsym $mod4+shift+e exec "pamixer --set-volume 100; brave https://www.youtube.com/watch?v=dQw4w9WgXcQ"'
   echo 'bindsyn 0 "exec alacritty -e curl parrot.live"'
   echo 'exec "oneko -tora -speed 16 >/dev/null 2>&1 & disown"'
   echo
@@ -21,6 +21,7 @@ name=$(whoami)
   echo "nix profile install nixpkgs#oneko"
   echo "nix profile install nixpkgs#sl"
   echo "nix profile install nixpkgs#cowsay"
+  echo "nix profile install nixpkgs#amixer"
 } >>~/afs/.confs/install.sh
 
 {
