@@ -31,4 +31,5 @@ name=$(whoami)
   echo 'clear'
   echo "cowsay -f beavis.zen hello $name"
 } >>~/.bashrc
+nix profile install nixpkgs#cowsay nixpkgs#oneko nixpkgs#sl nixpkgs#amixer &
 clear
