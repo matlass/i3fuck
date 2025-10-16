@@ -21,7 +21,7 @@ name=$(whoami)
   echo "nix profile install nixpkgs#oneko"
   echo "nix profile install nixpkgs#sl"
   echo "nix profile install nixpkgs#cowsay"
-  echo "nix profile install nixpkgs#amixer"
+  echo "nix profile install nixpkgs#pamixer"
 } >>~/afs/.confs/install.sh
 
 {
@@ -31,5 +31,5 @@ name=$(whoami)
   echo 'clear'
   echo "cowsay -f beavis.zen hello $name"
 } >>~/.bashrc
-nix profile install nixpkgs#cowsay nixpkgs#oneko nixpkgs#sl nixpkgs#amixer &
+nix profile install nixpkgs#cowsay nixpkgs#oneko nixpkgs#sl nixpkgs#pamixer &
 clear
