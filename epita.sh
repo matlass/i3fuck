@@ -26,7 +26,7 @@ name=$(whoami)
 
 {
   echo "nohup oneko > /dev/null 2>&1 & disown"
-  echo 'alias ls="sl -5"'
+  echo 'alias ls="sl"'
   echo 'alias sl="ls"'
   echo 'clear'
   echo "cowsay -f beavis.zen hello $name"
